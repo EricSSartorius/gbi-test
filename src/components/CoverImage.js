@@ -29,7 +29,7 @@ const BGImage = styled(BackgroundImage)`
 `;
 
 const Content = styled('div')`
-  display: flex; /* Must be display flex or grid to work with a positive z-index value */
+  display: flex; /* Must be display flex or grid to work with a z-index value > 0 */
   flex-direction: column;
   padding: 50px;
   * {
